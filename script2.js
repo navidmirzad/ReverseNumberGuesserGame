@@ -49,7 +49,6 @@ function generateNumber() {
   return Math.floor((lowestPossibleNumber + highestPossibleNumber) / 2);
 }
 
-// generates new guess but with new lowest + highest possible number
 function generateGuess() {
   guess = generateNumber();
   const html = `<li>My guess is ${guess} - is that correct?</li>`;
